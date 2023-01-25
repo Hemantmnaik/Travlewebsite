@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        section{
+            background-color: rgb(42, 40, 40);
+            width: 100%;
+            height: 100vh;
+        }
+        article{
+           
+            width: 60%;
+            margin: 0 auto;
+            height: inherit;
+            position: relative;
+        
+        }
+        h1{
+position: absolute;
+margin-left: 35%;
+font-size: 40px;
+top: 30px;
+        }
+.div1>input{
+    width: 600px;
+    padding: 20px;
+    position: absolute;
+    left: 180px;
+    top: 100px;
+    border-radius: 50px;
+    border: 3px solid rgb(12, 12, 12);
+}
+
+.div1>button{
+    width: 70px;
+    padding: 10px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    border-radius: 50px;
+    color: rgb(10, 87, 10);
+}
+button:hover{
+    background-color: rgb(51, 97, 97);
+}
+
+.div2>input{
+    position: absolute;
+    top: 220px;
+    left: 180px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 3px solid rgb(21, 167, 21);
+    z-index: 1;
+
+}
+
+.div2>button{
+    position:absolute;
+    top: 230px;
+    width: 70px;
+    padding: 10px;
+    left: 50px;
+    border-radius: 50px;
+    color: rgb(10, 87, 10);
+}
+.div3>input{
+    position: absolute;
+    top: 340px;
+    left: 180px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 3px solid blue;
+}
+.div3>button{
+    position: absolute;
+    top: 355px;
+    width: 70px;
+    padding: 10px;
+    left: 50px;
+    border-radius: 50px;
+    color: rgb(10, 87, 10);
+}
+.div4>input{
+    position: absolute;
+    top: 470px;
+    left: 180px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+    border: 3px solid rgb(184, 45, 45);
+}
+
+.div4>button{
+    position: absolute;
+    top: 485px; 
+    width: 70px;
+    padding: 10px;
+    left: 50px;
+    border-radius: 50px;
+    color: rgb(10, 87, 10);
+}
+.div1>p{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+.div2>p{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.div3>p{
+    position: absolute;
+    top: 320px;
+    left: 200px;
+}
+.div4>p{
+    position: absolute;
+    top: 450px;
+    left: 200px;
+
+}
+.p{
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+p{
+    color: rgb(177, 140, 71);
+}
+i{
+    position: absolute;
+    top: 240px;
+    left: 230px;
+    z-index: 5;
+    
+    
+}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+<article>
+<div>
+    <h1 style="color: blueviolet;">Input field <span style="color: blue;">design</span></h1>
+</div>
+
+<div class="div1">
+    <p>Email Adress</p>
+<button>Default</button>
+<input type="text" value="example@xyz.com">
+</div>
+
+ <div class="div2">
+    <i class="fa-solid fa-square-envelope"></i>
+    <p>Email Adress</p>
+<button>Active</button>
+<input type="text" >
+</div> 
+
+<div class="div3">
+    <p>Email Adress</p>
+<button>Filled</button>
+<input type="text" value="designbymeet@gmail.com" >
+</div>
+
+<div class="div4" >
+    <p>Email Adress</p>
+<button>Error</button>
+<input type="text" value="abcgmail.com" >
+<div>
+    <p class="p" style="color: brown;">!invalid input format </p>
+</div> 
+
+</article>
+
+    </section>
+</body>
+</html>
